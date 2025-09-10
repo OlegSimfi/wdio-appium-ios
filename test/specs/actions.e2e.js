@@ -17,7 +17,7 @@ describe('Actions practice', () => {
         await driver.pause(2000);
     });
 
-    it.only('Sliders', async () => {
+    it('Sliders', async () => {
         await $('//XCUIElementTypeStaticText[@name="Sliders"]').click();
         await $('(//XCUIElementTypeSlider)[1]').setValue('0');
         await $('(//XCUIElementTypeSlider)[2]').setValue('0.25');
