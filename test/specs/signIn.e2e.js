@@ -77,5 +77,4 @@ describe('Log in tests', () => {
         await $('//XCUIElementTypeOther[@name="Forgot Password"]').click();
         await expect($('//XCUIElementTypeStaticText[@name="Restore access"]')).toBeDisplayed();
     });
-
 });

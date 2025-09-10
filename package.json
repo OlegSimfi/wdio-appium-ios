@@ -11,8 +11,6 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js",
-    "test": "wdio run ./wdio.conf.js --spec ./test/specs/signIn.e2e.js"
-
-
+    "test": "wdio run ./wdio.conf.js --spec ./test/specs/garagePage.e2e.js"
   }
 }
